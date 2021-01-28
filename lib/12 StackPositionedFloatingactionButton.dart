@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
                 color: Colors.deepOrange,
               ),
               Positioned(
+                bottom: -50,
                   child: CircleAvatar(
                 radius: 50,
               ))
