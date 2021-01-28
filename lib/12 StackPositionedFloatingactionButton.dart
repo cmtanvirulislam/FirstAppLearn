@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: Stack(
-            alignment: Alignment.center,
+            alignment: Alignment.bottomCenter,
             children: <Widget>[
               Container(
                 height: 200,
