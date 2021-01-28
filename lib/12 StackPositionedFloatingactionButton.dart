@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main(){
+void main() {
   runApp(MyApp());
 }
 
@@ -17,7 +17,11 @@ class MyApp extends StatelessWidget {
                 height: 200,
                 width: 200,
                 color: Colors.brown,
-              )
+              ),
+              Positioned(
+                  child: CircleAvatar(
+                radius: 50,
+              ))
             ],
           ),
         ),
