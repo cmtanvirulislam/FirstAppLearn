@@ -12,11 +12,12 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: Stack(
+            alignment: Alignment.center,
             children: <Widget>[
               Container(
                 height: 200,
                 width: 200,
-                color: Colors.brown,
+                color: Colors.deepOrange,
               ),
               Positioned(
                   child: CircleAvatar(
