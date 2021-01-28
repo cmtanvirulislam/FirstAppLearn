@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        floatingActionButton: FloatingActionButton(onPressed: () {},),
+        floatingActionButton: FloatingActionButton(onPressed: () {},child: Icon(Icons.add), ),
         body: Center(
           child: Stack(
             overflow: Overflow.visible,
