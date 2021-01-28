@@ -12,6 +12,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: Stack(
+            overflow: Overflow.visible,
             alignment: Alignment.bottomCenter,
             children: <Widget>[
               Container(
